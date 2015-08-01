@@ -1,0 +1,79 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+#container {
+    width: 1000px;
+    height: 800px;
+    position: relative;
+    margin: auto;
+}
+#leftScreen {
+    float: left;
+    height: 100%;
+    width: 250px
+}
+#hero {
+    width: 100%;
+    height: 298px;
+    border: 1px solid white;
+}
+#stats {
+    border: 1px solid white;
+    border-top: none;
+    height: 499px;
+    width: 100%;
+}
+#rightScreen {
+    position: relative;
+    float: left;
+    width: 750px;
+    heigh: 100%;
+}
+.tab {
+    float: left;
+    width: 249px;
+    height: 40px;
+    padding-top: 5px;
+    border-right: 1px dashed white;
+    border-bottom: 1px solid white;
+}
+.tab:last-child {
+    border-right: none;
+}
+.tab:hover {
+    background-color: darkgray;
+    cursor: pointer;
+}
+.tabs {
+    width: 100%;
+    height: 46px;
+    border-top:1px solid white;
+    border-right:1px solid white;
+}
+.displayScreen {
+    position: relative;
+    height: 752px;
+    width: 100%;
+    border-bottom: 1px solid white;
+    border-right:1px solid white;
+}
+
+#shopScreen {
+    width: 100%;
+    height: 100%;
+    display:none;
+}
+
+#trainingScreen {
+    width: 100%;
+    height: 100%;
+    display:none;
+}
+
+#missions {
+    width:100%;
+    height:100%;
+}
